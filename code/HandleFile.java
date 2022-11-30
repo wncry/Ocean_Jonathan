@@ -58,10 +58,10 @@ class HandleFile {
             System.out.printf("File name: %s is now closed.\n", this.fileName);
 
         } catch (FileNotFoundException e) {
-            System.out.printf("ERROR:\nYour file: %s does not exist.\n", this.fileName);
+            System.out.printf("\nERROR:\nYour file: %s does not exist.\n\n", this.fileName);
             this.err = true;
         } catch (Exception e) {
-            System.out.println("Error: File is empty\n");
+            System.out.println("\nError: File is empty\n");
             this.err = true;
         }
 
