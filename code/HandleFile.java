@@ -55,7 +55,7 @@ class HandleFile {
             System.out.printf("%d record%s have been read from the file.\n", data.getDataCount(), (data.getDataCount()!=1)?"s":"");
 
             fileRead.close();
-            System.out.printf("File name: %s is now closed.\n", this.fileName);
+            System.out.printf("File name: %s is now closed.\n\n", this.fileName);
 
         } catch (FileNotFoundException e) {
             System.out.printf("\nERROR:\nYour file: %s does not exist.\n\n", this.fileName);
